@@ -1,0 +1,74 @@
+ #home p{
+    /* display: flex; */
+    /* justify-content: center;
+align-items: center; */
+color: rgb(253, 253, 253);
+font-family: "Micro 5", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.0rem;
+
+} 
+.h-primarycenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-style: italic;
+    /* height: 50%; */
+}
+#home h1{
+    color:white;
+    font-size: 3.5rem;
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 500;
+    
+}
+.btn{
+    font-style: italic;
+    font-size: 1.5rem;
+    background-color:white;
+    cursor: pointer;
+}
+.btn:hover{
+    color:wheat;
+    background-color: black;
+    border-radius: 20px;
+    
+}
+/* ...............services.......... */
+.center{
+    text-align: center;
+}
+.h-secondary center{
+    color:white;
+    font-size: 2.5rem;
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 500;
+    
+
+}
+.box{
+    text-shadow: 2px grey;
+    font-style: italic;
+}
+footer{
+
+    background-color: black;
+    color: aliceblue;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 20px;
+}
+#contact-box form{
+    width: 40%;
+}
